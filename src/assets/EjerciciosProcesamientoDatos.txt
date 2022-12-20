@@ -1,0 +1,109 @@
+Ejercicio 1:
+
+Teniendo el siguiente JSON
+-Imprimir el nombre de las personas que son mayores de 50 años
+-Calcular el imprimir el promedio de edad de mujeres y de hombres
+-Imprimir el/los hobbies que más se repite
+-Imprimir el/los hobbies que menos se repite
+
+{
+	"data": {
+		"id": "",
+		"type": "",
+		"attributes": [
+			{
+				"nombres": "Luis Adrián",
+				"apellidos": "Hernandez Sánchez",
+				"edad": 15,
+				"hobbies": ["futbol", "musica", "pintura", "videojuegos"]				
+			},
+			{
+				"nombres": "Luis",
+				"apellidos": "Hernandez",
+				"edad": 75,
+				"hobbies": ["futbol"]				
+			},
+			{
+				"nombres": "Adrián",
+				"apellidos": "Sánchez",
+				"edad": 95,
+				"hobbies": ["videojuegos"]				
+			},
+			{
+				"nombres": "Gerardo",
+				"apellidos": "Castro Ruíz",
+				"edad": 10,
+				"hobbies": ["musica", "pintura"]				
+			},
+			{
+				"nombres": "Abigael",
+				"apellidos": "Yam",
+				"edad": 5,
+				"hobbies": []				
+			},
+			{
+				"nombres": "Litzy",
+				"apellidos": "Balam",
+				"edad": 80,
+				"hobbies": ["correr", "salto de jabalina", "leer"]				
+			},
+			{
+				"nombres": "Kimberly",
+				"apellidos": "Osorio",
+				"edad": 30,
+				"hobbies": ["salto de jabalina", "leer"]				
+			},
+			{
+				"nombres": "Diana",
+				"apellidos": "Cano",
+				"edad": 65,
+				"hobbies": ["futbol"]				
+			},
+			{
+				"nombres": "Gema",
+				"apellidos": "Herrera",
+				"edad": 15,
+				"hobbies": ["futbol", "musica", "pintura", "videojuegos"]				
+			},
+			{
+				"nombres": "Gregorio",
+				"apellidos": "Balam Pech",
+				"edad": 15,
+				"hobbies": ["futbol" "videojuegos"]				
+			}
+		]
+	}
+}
+
+Ejercicio 2:
+
+Teniendo los siguientes JSONS
+-Generar dos JSON, uno solo de mujeres y el otro de hombres
+-Imprimir un nuevo JSON con el nombre y apellido de las personas agrupador por Dirección IP, basándose en el primer grupo de dígitos, 0-100, 101-200, 201-300 etc.
+
+{
+	"data": [
+		{"id":1,"first_name":"Mord","last_name":"Windus","email":"mwindus0@weebly.com","gender":"Male","ip_address":"251.251.96.41","model_car":"A4"},
+				{"id":2,"first_name":"Eddy","last_name":"Crafts","email":"ecrafts1@mac.com","gender":"Female","ip_address":"11.237.197.36","model_car":"LS"},
+				{"id":3,"first_name":"Windy","last_name":"Kubiak","email":"wkubiak2@yahoo.com","gender":"Female","ip_address":"62.69.60.35","model_car":"Cavalier"},
+				{"id":4,"first_name":"Stella","last_name":"Braban","email":"sbraban3@accuweather.com","gender":"Female","ip_address":"216.85.152.161","model_car":"S-Class"},
+				{"id":5,"first_name":"Lenka","last_name":"Brotherhead","email":"lbrotherhead4@microsoft.com","gender":"Female","ip_address":"183.79.149.247","model_car":"7 Series"},
+				{"id":6,"first_name":"Standford","last_name":"Willows","email":"swillows5@salon.com","gender":"Male","ip_address":"86.251.185.103","model_car":"MX-6"},
+				{"id":7,"first_name":"Tam","last_name":"Tamsett","email":"ttamsett6@desdev.cn","gender":"Male","ip_address":"16.78.127.40","model_car":"Prius"},
+				{"id":8,"first_name":"Irwin","last_name":"Sole","email":"isole7@edublogs.org","gender":"Male","ip_address":"248.234.248.228","model_car":"Pajero"},
+				{"id":9,"first_name":"Johann","last_name":"Bonnier","email":"jbonnier8@ft.com","gender":"Male","ip_address":"226.71.173.23","model_car":"Impala"},
+				{"id":10,"first_name":"Kirbee","last_name":"Darington","email":"kdarington9@mapquest.com","gender":"Female","ip_address":"3.152.116.157","model_car":"Z3"}]
+}
+
+{
+	"data": [{"id":1,"first_name":"Alidia","last_name":"Overall","email":"aoverall0@netvibes.com","gender":"Female","ip_address":"132.23.221.168","model_car":"Sorento"},
+				{"id":2,"first_name":"Mignonne","last_name":"Kingswood","email":"mkingswood1@ted.com","gender":"Female","ip_address":"88.178.123.15","model_car":"G37"},
+				{"id":3,"first_name":"Costanza","last_name":"Thoumasson","email":"cthoumasson2@lycos.com","gender":"Female","ip_address":"27.118.66.30","model_car":"Diablo"},
+				{"id":4,"first_name":"Darlleen","last_name":"Shavel","email":"dshavel3@qq.com","gender":"Female","ip_address":"150.123.206.161","model_car":"Navigator"},
+				{"id":5,"first_name":"Rebeka","last_name":"Dalmon","email":"rdalmon4@huffingtonpost.com","gender":"Female","ip_address":"151.147.233.176","model_car":"Range Rover"},
+				{"id":6,"first_name":"Galen","last_name":"Northedge","email":"gnorthedge5@list-manage.com","gender":"Male","ip_address":"113.236.83.253","model_car":"Gallardo"},
+				{"id":7,"first_name":"Valeda","last_name":"Cobain","email":"vcobain6@blogtalkradio.com","gender":"Female","ip_address":"190.63.174.153","model_car":"S40"},
+				{"id":8,"first_name":"Patricia","last_name":"Quinlan","email":"pquinlan7@woothemes.com","gender":"Female","ip_address":"250.175.128.18","model_car":"Pajero"},
+				{"id":9,"first_name":"Brandon","last_name":"Hefforde","email":"bhefforde8@goodreads.com","gender":"Genderqueer","ip_address":"139.65.174.242","model_car":"Raider"},
+				{"id":10,"first_name":"Evin","last_name":"Pleass","email":"epleass9@wunderground.com","gender":"Male","ip_address":"236.97.75.25","model_car":"Avalanche 2500"}]
+}
